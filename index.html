@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Sokhi ❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Initial Envelope View -->
+        <div id="envelope-container" class="envelope-container">
+            <div class="envelope" id="envelope">
+                <div class="flap"></div>
+                <div class="body"></div>
+                <div class="heart-seal">❤️</div>
+            </div>
+            <p class="click-instruction">Click to open</p>
+        </div>
+
+        <!-- Letter View (Hidden initially) -->
+        <div id="letter-container" class="letter-container hidden">
+            <div class="letter-content">
+                <div class="paper">
+                    <p id="typewriter-text"></p>
+                    
+                    <div id="question-section" class="question-section hidden">
+                        <h3>Will You Be My Valentine?</h3>
+                        <div class="buttons">
+                            <button id="btn-yes" class="btn btn-yes">Yes 😍</button>
+                            <button id="btn-no" class="btn btn-no">No 🙅</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Celebration View (Hidden initially) -->
+        <div id="celebration-container" class="celebration-container hidden">
+            <h1 class="love-text">I LOVE YOU ❤️</h1>
+            <div class="hearts-container" id="hearts-container"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
